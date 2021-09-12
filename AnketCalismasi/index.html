@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Çalışma Anketi</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section id="header">
+        <div class="bg-white text-center py-5">
+            <div class="container">
+                <h2 class="text-info display-4 my-4">Evden Çalışma Anketi</h2>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <div class="result d-none py-5 bg-white text-center">
+        <div class="container lead">
+            <p>Yaklaşık <span class="text-info display-4 p-3">0%</span>  ofise dönmek istiyorsunuz. :) </p>
+        </div>
+    </div>
+
+    <section id="questions">
+        <div class="bg-light py-3">
+            <div class="container">
+                <form class="question-form text-dark " style="font-family: 'Montserrat', sans-serif;">
+
+                    <div class="my-4">
+                        <p>1) Ofise tam zamanlı dönmek istiyorum.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name1" value="E" checked>
+                            <label class="form-check-label">
+                              Evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name1" value="H">
+                            <label class="form-check-label">
+                              Hayır                   
+                            </label>
+                          </div>
+                    </div>
+                    <hr>
+                    <div class="my-4">
+                        <p>2) Ofiste daha verimli çalışıyorum.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name2" value="E" checked>
+                            <label class="form-check-label">
+                              Evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name2" value="H">
+                            <label class="form-check-label">
+                              Hayır                   
+                            </label>
+                          </div>
+                    </div>
+                    <hr>
+                    <div class="my-4">
+                        <p>3) Ofiste teknik sorunları daha kolay çözüyorum.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name3" value="E" checked>
+                            <label class="form-check-label">
+                              Evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name3" value="H">
+                            <label class="form-check-label">
+                              Hayır                   
+                            </label>
+                          </div>
+                    </div>
+                    <hr>
+                    <div class="my-4">
+                        <p>4) Ofiste çalışmanın yerini hiçbir şey tutmuyor.</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name4" value="E" checked>
+                            <label class="form-check-label">
+                              Evet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="name4" value="H">
+                            <label class="form-check-label">
+                              Hayır                   
+                            </label>
+                          </div>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-info">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
